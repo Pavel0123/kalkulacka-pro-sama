@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'kalkulacka1';
+
+  private result: string = "";
+  name(walue: string) {
+    if (walue == "=") {
+      this.result = eval(this.result);
+    } else {
+      this.result += walue;
+    }
+  }
 }

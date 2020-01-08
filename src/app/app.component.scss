@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Open+Sans|Monterrat);
+
+.calculator {
+  height: 450px;
+  background-color: rgb(133, 133, 133);
+  position: relative;
+  border: 1px solid black;
+  margin: 7% auto auto auto;
+  width: 300px;
+  text-align: center;
+ 
+}
+
+.table {
+  
+  color: green($color: #000000);
+}
+
+button {
+  width: 65px;
+  height: 65px;
+  line-height: 50px;
+  border: 2px solid #f5f5f5;
+  
+  font-size: 16px;
+  color: white;
+  text-align: center;
+ 
+  background: #292928;
+  margin: 10px 3px 10px 3px;
+ 
+  
+}
+
+
+
+
+
+input {
+    height: 50px;
+   
+    
+    margin: 6% auto auto auto;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    border-color: white;
+    font-size: 25px;
+    background-color: #292928;
+    color: white;
+  }
